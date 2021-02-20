@@ -1,0 +1,25 @@
+:root {
+    --blue: #2B3A41;
+    --gray: #E5E5E5;
+    --peach: #ECC2A2;
+}
+
+
+img{
+    width: 50%;
+}
+.container{
+    background-color: red;
+}
+
+.content{
+    background-color: salmon;
+}
+
+.wrapper{
+    background-color: seagreen;
+}
+
+.card{
+    background-color: tan;
+}
