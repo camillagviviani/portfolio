@@ -5,82 +5,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Camilla Portfolio</title>
 </head>
 
 <body>
     <div class="page">
-        <nav>
-            <a href="">Projects</a>
-            <a href="">Contact</a>
-        </nav>
 
         <header>
-            <section class="header-section">
-                <h1>Hi, I’m Camilla! <br>
-                    I build <span>lalala</span> website for
-                    small indipendent hotels </h1>
-                <button class="btn"> LET'S CHAT! </button>
-            </section>
-            <section class="img-container">
-                <img class="img-header" src="/camilla.jpg.jpeg" alt="">
-            </section>
+            <nav class="sticky">
+                <a href="#Contact">Contact</a>
+                <a href="#Projects">Projects</a>
+            </nav>
         </header>
 
-        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill:#E5E5E5;"></path></svg></div>
-
-        </div>
-
         <main>
-            <h2>MY WORK</h2>
-            <p>Here are some example of my most recent work. It’s all about helping small indipendent hotels to build
-                their online experience and drive direct booking.</p>
-            
-            <section class="container">
-            <article class="project">
-                <h3>HOTEL FALALA</h3>
-                <p>Web Design & Landing Page</p>
-                <img class="img-small" src="./placeholder-image.jpg" alt="">
-                <button class="btn-smll">Go to the site</button>
-            </article>
-
-            <article class="project">
-                <h3>HOTEL FALALA</h3>
-                <p>Web Design & Landing Page</p>
-                <img class="img-small" src="./placeholder-image.jpg" alt="">
-                <button class="btn-smll">Go to the site</button>
-            </article>
-
-            <article class="project">
-                <h3>HOTEL FALALA</h3>
-                <p>Web Design & Landing Page</p>
-                <img class="img-small" src="./placeholder-image.jpg" alt="">
-                <button class="btn-smll">Go to the site</button>
-            </article>
-
-            <article class="project">
-                <h3>HOTEL FALALA</h3>
-                <p>Web Design & Landing Page</p>
-                <img class="img-small" src="./placeholder-image.jpg" alt="">
-                <button class="btn-smll">Go to the site</button>
-            </article>
-        </section>
+            <div class="header">
+                <div class="header-section">
+                    <h1>Hi, I’m Camilla! <br>
+                        I build <span>lalala</span> website for
+                        small indipendent hotels </h1>
+                    <button class="btn"> LET'S CHAT! </button>
+                </div>
+                <div class="img-container">
+                    <img class="img-header" src="./img/camilla.jpg" alt="">
+                </div>
+            </div>
+            <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                    style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
+                        style="stroke: none; fill:#E5E5E5;"></path>
+                </svg></div>
+            <div class="main" id="Projects">
+                <h2>MY WORK</h2>
+                <p>Here are some example of my most recent work. It’s all about helping small indipendent hotels to
+                    build
+                    their online experience and drive direct booking.</p>
+                <div class="container">
+                    <div class="project">
+                        <h3>HOTEL FALALA</h3>
+                        <p>Web Design & Landing Page</p>
+                        <img class="img-small" src="./img/placeholder-image.jpg" alt="project image">
+                        <button class="btn-smll">Go to the site</button>
+                    </div>
+                    <div class="project">
+                        <h3>HOTEL FALALA</h3>
+                        <p>Web Design & Landing Page</p>
+                        <img class="img-small" src="./img/placeholder-image.jpg" alt="project image">
+                        <button class="btn-smll">Go to the site</button>
+                    </div>
+                    <div class="project">
+                        <h3>HOTEL FALALA</h3>
+                        <p>Web Design & Landing Page</p>
+                        <img class="img-small" src="./img/placeholder-image.jpg" alt="project image">
+                    </div>
+                        <div class="project">
+                            <h3>HOTEL FALALA</h3>
+                            <p>Web Design & Landing Page</p>
+                            <img class="img-small" src="./img/placeholder-image.jpg" alt="project image">
+                        </div>
+                </div>
+            </div>
+            <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                    style="height: 100%; width: 100%; background-color:#E5E5E5">
+                    <path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
+                        style="stroke: none; fill:#2B3A41;"></path>
+                </svg></div>
         </main>
-        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%; background-color:#E5E5E5"><path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill:#2B3A41;"></path></svg></div>
-        <footer>
-            <article>
+        <footer id="Contact">
+            <div>
                 <h2>LET'S CHAT!</h2>
                 <p>You think your hotel could do with a little help from me?
                     <span>Get in touch!</span></p>
-            </article>
+            </div>
             <div class="form">
                 <input class="form-line" type="text" id="fname" name="firstname" placeholder="Your name..">
                 <input class="form-line" type="text" id="lname" name="lastname" placeholder="Your email..">
-                <textarea class="form-line" id="subject" name="subject" placeholder="Message.." style="height:200px"></textarea>
+                <textarea class="form-line" id="subject" name="subject" placeholder="Message.."
+                    style="height:200px"></textarea>
                 <input class="form-line" type="submit" value="Send your message">
             </div>
         </footer>
     </div>
 </body>
+
 </html>

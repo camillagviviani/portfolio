@@ -1,0 +1,16 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+
+.page {
+    background-color: var(--main);
+    color:var(--secondary);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+

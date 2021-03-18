@@ -1,0 +1,11 @@
+:root {
+    --main: #2B3A41;
+    --secondary: #E5E5E5;
+    --additional: #ECC2A2;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
