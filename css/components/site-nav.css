@@ -1,0 +1,29 @@
+nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 140px;
+    padding-right: 140px;
+    background-color: #2b3a41ab;
+}
+nav a{
+    font-size: 24px;
+    float: right;
+    align-content: center;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: var(--secondary);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+nav a:hover{
+    color: var(--additional);
+    border-bottom: 2px solid;
+}
+
+.sticky {
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+}

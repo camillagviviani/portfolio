@@ -1,57 +1,105 @@
-:root {
+
+@import "./settings/global.css";
+
+@import "./generic/normalize.css";
+
+@import "./elements/headings.css";
+@import "./elements/images.css";
+@import "./elements/span.css";
+
+@import "./objects/flex-box.css";
+
+@import "./components/header.css";
+@import "./components/main.css";
+@import "./components/buttons.css";
+@import "./components/footer.css";
+@import "./components/form.css";
+@import "./components/project-card.css";
+@import "./components/site-nav.css";
+
+
+/* 
+Settings: Glibal variables, config switches
+Tools: Defaults mixing and unctions
+Generic: Ground-zero stlye (normalize, resets, box sizing)
+Base - Elements : Unclassed HTML elements (type selectors)
+Objects: Cosmetic-free desin patterns
+Components: Design components, chunks of UI 
+Trumps: Helpers and overrides  
+*/
+
+
+/* :root {
     --main: #2B3A41;
     --secondary: #E5E5E5;
     --additional: #ECC2A2;
-}
+} */
 
-* {
+/* * {
     margin: 0;
-    box-size: border-box;
+    box-sizing: border-box;
     font-family:sans-serif;
-}
+} */
 
-.page {
+/* .page {
     background-color: var(--main);
     color:var(--secondary);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
+} */
 
-main{
+/* .main{
     background-color: var(--secondary);
     color: var(--main);
     min-height: 100vh;
     padding-left: 140px;
     padding-right: 140px;
-}
+} */
 
+/* 
 nav{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 140px;
     padding-right: 140px;
+    background-color: #2b3a41ab;
 }
 nav a{
     font-size: 24px;
     float: right;
-    padding-left: 50px;
+    align-content: center;
+    margin-left: 50px;
+    padding-bottom: 10px;
     text-decoration: none;
     color: var(--secondary);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
 }
 
 nav a:hover{
     color: var(--additional);
+    border-bottom: 2px solid;
 }
 
-.container{
+.sticky {
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+ } */
+
+
+
+
+ 
+/* .container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+} */
 
-header{
+/* .header{
     display: flex;
     flex-direction: row;
     min-height: 100vh;
@@ -63,8 +111,10 @@ header{
 .header-section{
     padding-top: 150px;
     padding-bottom: 150px;
-}
-.img-container{
+} */
+
+
+/* .img-container{
     width: 50%;
 }
 
@@ -74,19 +124,19 @@ header{
     float: right;
     padding-top: 80px;
     overflow: hidden;
-} 
+}  */
 
-h1{
+/* h1{
     font-size: 48px;
     letter-spacing: 2px;
     line-height: 135%;
-}
+} */
 
-span{
+/* span{
     color: var(--additional);
-}
+} */
 
-.btn{
+/* .btn{
     background-color: var(--main);
     color: var(--secondary);
     font-size: 40px;
@@ -104,26 +154,30 @@ span{
 
 
 .btn-smll{
-    background-color: var(--secondary);
+    background-color: var(--additional);
     color: var(--main);
-    border: none;
+    border:2px solid var(--main);
     border-radius: 10px;
-    padding: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+    max-width: 200px;
     font-size: 20px;
     font-weight: bold;
 }
 
 .btn-smll:hover{
-    opacity: 75%;
+    border: 3px solid;
     cursor: pointer;
-}
+} */
 
-main{
+/* main{
     padding-top: 50px;
     padding-bottom: 150px;
-}
+} */
 
-h2{
+/* h2{
     font-size: 36px;
 }
 
@@ -137,26 +191,40 @@ p{
     line-height: 32px;
     padding-top: 40px;
     padding-bottom: 80px;
-}
+} */
 
-.project p{
+/* .project p{
     width: 100%;
     padding-bottom: 40px;
 }
 
+.project a{
+    color: var(--main);
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 125px;
+}
 
-.project{
+.project a:hover{
+    border-bottom: 2px solid;
+} */
+
+/* .project{
     background-color: var(--additional);
     width: 40%;
     margin-bottom: 40px;
     padding: 20px;
-}
+    display: flex;;
+    flex-direction: column;
+} */
 
-.img-small{
+/* .img-small{
     width: 60%;
     overflow: hidden;
-}
-
+} */
+/* 
 footer{
     padding-top: 50px;
     min-height: 60vh;
@@ -166,9 +234,9 @@ footer{
     flex-direction: row;
     background-color: var(--main);
     color: var(--secondary);
-}
+} */
 
-.form{
+/* .form{
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -180,7 +248,7 @@ footer{
     padding:10px;
     border: none;
 }
-
+ */
 
 
 

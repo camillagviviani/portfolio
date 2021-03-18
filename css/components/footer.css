@@ -1,0 +1,10 @@
+footer{
+    padding-top: 50px;
+    min-height: 60vh;
+    padding-left: 140px;
+    padding-right: 140px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--main);
+    color: var(--secondary);
+}

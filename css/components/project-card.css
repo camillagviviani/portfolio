@@ -1,0 +1,27 @@
+
+.project{
+    background-color: var(--additional);
+    width: 40%;
+    margin-bottom: 40px;
+    padding: 20px;
+    display: flex;;
+    flex-direction: column;
+}
+
+.project p{
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.project a{
+    color: var(--main);
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 125px;
+}
+
+.project a:hover{
+    border-bottom: 2px solid;
+}
