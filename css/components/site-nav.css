@@ -10,16 +10,17 @@ nav{
 nav a{
     font-size: 20px;
     margin-left: 50px;
-    padding-bottom: 10px;
     text-decoration: none;
     color: var(--secondary);
-    -webkit-transition: all 500ms ease;
-    transition: all 500ms ease;
+    padding: 10px;
+    align-items: center;
 }
 
 nav a:hover{
     color: var(--additional);
-    border-bottom: 2px solid;
+    background-color: rgba(255, 255, 255, 0.164);
+    opacity: 1.0;
+    border-radius:10px; 
 }
 
 .sticky {
