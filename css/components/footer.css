@@ -1,11 +1,24 @@
+
 footer{
+    background-color: var(--main);
+    color: var(--secondary);
     padding-top: 30px;
     min-height: 60vh;
     padding-left: 140px;
     padding-right: 140px;
     padding-bottom: 30px;
+}
+
+#footer{
     display: flex;
     flex-direction: row;
-    background-color: var(--main);
-    color: var(--secondary);
+}
+
+.contact-text{
+    width: 50%;
+}
+
+#Contact p {
+    width: 100%;
+    padding-bottom: 20px;
 }

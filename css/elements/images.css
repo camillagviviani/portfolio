@@ -5,10 +5,13 @@
 .img-header{
     width: 100%;
     float: right;
-
 } 
 
 .img-small{
     width: 120%;
     height: 120%;
+}
+
+.work{
+    width: 90%;
 }

@@ -3,14 +3,18 @@
     background-color: var(--additional);
     width: 40%;
     margin-bottom: 40px;
-    padding: 20px;
+    padding: 20px 20px -10px 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: -30px;
     display: flex;;
     flex-direction: column;
 }
 
 .project p{
     width: 100%;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 .project a{
