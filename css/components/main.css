@@ -1,6 +1,5 @@
 main{
     padding-top: 50px;
-    padding-bottom: 150px;
 }
 
 
@@ -11,3 +10,19 @@ main{
     padding-left: 140px;
     padding-right: 140px;
 }
+
+.main p {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 800px) {
+    main{
+        padding-top: 0px;
+    }
+
+    .main{
+        padding: 0 20px 0 20px;
+    }
+  }

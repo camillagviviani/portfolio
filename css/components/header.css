@@ -1,13 +1,24 @@
 .header{
     display: flex;
     flex-direction: row;
-    min-height: 100vh;
-    padding-left: 140px;
-    padding-right: 140px;
+    width: 80%;
+    margin: auto;
 }
 
 
 .header-section{
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 50px;
 }
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+      width: 90%;
+      align-items: center;
+      margin: auto;
+    }
+
+    .img-container{
+        width: 70%;
+    }
+  }
