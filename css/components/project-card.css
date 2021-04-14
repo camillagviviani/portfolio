@@ -1,5 +1,4 @@
-
-.project{
+.project {
     background-color: var(--additional);
     width: 40%;
     margin-bottom: 160px;
@@ -8,9 +7,23 @@
     flex-direction: column;
 }
 
-.project p{
+.project p {
     width: 100%;
     margin-bottom: 15px;
 }
 
 
+@media (max-width: 800px) {
+
+    .project {
+        width: 100%;
+        padding-left: 20px;
+        margin-right: 20px;
+    }
+
+    .img-small {
+        margin-left: 50px;
+        margin-bottom: -50px;
+    }
+
+}

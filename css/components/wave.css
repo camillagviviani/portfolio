@@ -1,0 +1,35 @@
+#wave-top {
+    height: 150px;
+    overflow: hidden;
+}
+
+#wave-top-svg {
+    height: 100%;
+    width: 100%;
+    background-color: var(--main);
+}
+
+
+#wave-top-path {
+    stroke: none;
+    fill: var(--secondary);
+}
+
+
+
+#wave-bottom {
+    height: 150px;
+    overflow: hidden;
+}
+
+#wave-bottom-svg {
+    height: 100%;
+    width: 100%;
+    background-color: var(--secondary);
+}
+
+
+#wave-bottom-path {
+    stroke: none;
+    fill: var(--main);
+}

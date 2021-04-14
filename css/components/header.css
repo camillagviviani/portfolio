@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -6,19 +6,19 @@
 }
 
 
-.header-section{
+.header-section {
     padding-top: 50px;
 }
 
 @media (max-width: 800px) {
     .flex-container {
-      flex-direction: column;
-      width: 90%;
-      align-items: center;
-      margin: auto;
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        margin: auto;
     }
 
-    .img-container{
-        width: 70%;
+    .img-container {
+        width: 60%;
     }
-  }
+}

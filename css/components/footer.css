@@ -1,5 +1,4 @@
-
-footer{
+footer {
     background-color: var(--main);
     color: var(--secondary);
     padding-top: 30px;
@@ -9,12 +8,12 @@ footer{
     padding-bottom: 30px;
 }
 
-#footer{
+#footer {
     display: flex;
     flex-direction: row;
 }
 
-.contact-text{
+.contact-text {
     width: 50%;
 }
 
@@ -23,3 +22,29 @@ footer{
     padding-bottom: 20px;
 }
 
+@media (max-width: 800px) {
+    footer {
+        padding: 20px;
+        align-items: center;
+        margin: auto;
+    }
+
+    #footer {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    p {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .contact-text {
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .work {
+        width: 100%;
+    }
+}
